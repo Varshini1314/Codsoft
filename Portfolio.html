@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h1>VARSHINI DEVI S</h1>
+        <h3>Web Designer</h3>
+        <h2>About Me</h2>
+        <p>Experienced ECE fresher with a solid foundation in electrical and computer engineering concepts. Proficient in circuit design, programming languages like C/C++, and FPGA development. Skilled in problem-solving, teamwork, and eager to apply theoretical knowledge to practical projects. Strong communication skills and a passion for innovation drive my career aspirations.</p>
+       <center>
+         <img src="varsh.jpg">
+       </center>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Vehicle theft intimation alarm system</h3>
+            <p>A vehicle theft intimation alarm system is a security device designed to alert the owner or authorities if an unauthorized attempt is made to access or steal a vehicle. The system typically includes sensors placed strategically throughout the vehicle to detect unauthorized entry, movement, or tampering. When triggered, the alarm emits loud audible sounds and may also activate flashing lights to deter thieves and attract attention. Additionally, modern systems may integrate with smartphone apps or GPS tracking technology to provide real-time alerts and location tracking in case of theft.</p>
+        <h3>Automatic street light controller</h3>
+        <P>An automatic street light controller is a device or system designed to control the operation of street lights based on environmental conditions such as darkness or daylight. It typically includes sensors to detect ambient light levels and a control unit to adjust the intensity or turn on/off the street lights accordingly. The controller may employ technologies such as photocells, infrared sensors, or motion detectors to determine when illumination is necessary, optimizing energy efficiency and enhancing safety on roads and streets.</P>
+    </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
